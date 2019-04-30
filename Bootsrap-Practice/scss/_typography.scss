@@ -1,0 +1,44 @@
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+.bold {
+    font-weight: 600;
+}
+.small {
+    font-size: 14px;
+    color: $lightBlack;
+}
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+.blogTitle {
+    font-size: 16px;
+}
+
+.team-title {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    margin-top: 20px;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.description,
+.partnar-name {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 15px;
+    line-height: 1.7;
+}

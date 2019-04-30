@@ -1,0 +1,18 @@
+.subscribe {
+    height: 500px;
+    background-image: url("../img/f-banar.png");
+    background-size: cover;
+
+    form {
+        input {
+            height: 40px;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        input:focus {
+            border: 1px solid $pink;
+            box-shadow: 0 0 20px $pink-o;
+        }
+    }
+}

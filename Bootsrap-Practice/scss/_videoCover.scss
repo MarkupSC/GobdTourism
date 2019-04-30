@@ -1,0 +1,26 @@
+.video-cover {
+    height: 300px;
+    background-image: url("../img/v-bana.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.v-play {
+
+    i {
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 62px;
+        margin-top: -5p;
+        padding-top: -5px;
+        padding-left: 6px;
+        color: $white;
+        border: 5px solid #b7305c;
+        border-radius: 50%;
+        background-color: $pink;
+        box-shadow: 0 0 25px $right-c;
+    }
+}

@@ -1,0 +1,36 @@
+img.logo {
+    width: 40px;
+    height: auto;
+    margin-top: -7px;
+}
+
+.nav-search {
+    border: 1px solid $pink;
+    //    border-image-source: $grad;
+    //    border-image-slice: 10;
+    border-radius: 25px;
+}
+
+.nav-search:focus {
+    box-shadow: 0 0 10px $pink-o;
+}
+
+.navbar-collapse {
+    overflow-y: hidden;
+}
+
+.navbar-default {
+    .navbar-toggle {
+        background-color: $white;
+        border: 1px solid $yollow;
+
+        .icon-bar {
+            background-image: $grad;
+        }
+        .navbar-toggle:hover {
+            background: #fff;
+        }
+    }
+
+
+}

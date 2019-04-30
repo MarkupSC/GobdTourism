@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- (bootstrap v3.3.7) -->
+    <link rel="stylesheet" href="css/all.min.css"> <!-- (font awesome 5.2.0) -->
+    <link rel="stylesheet" href="css/swiper.min.css"> <!-- (swiper v4.4.6) -->
+    <link rel="stylesheet" href="css/animate.min.css"> <!-- (animate v3.5.2) -->
+    <link rel="stylesheet" href="css/style.css"> <!-- (custom css) -->
+    <link rel="shortcut icon" href="favicon.ico"> <!-- (browser icon) -->
+    <style type="text/css">
+        /*Internal CSS be here*/
+        .modal-custom {
+            border-radius: 0px;
+            background: #bd3cb8c7;
+            color: white;
+        }
+    </style>
+
+    <title>Bootstrap-01</title>
+</head>
+
+<body>
+    <!--*****************************************************
+         NAVBAR START |
+  ******************************************************-->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+            </div> <!-- .navbar-header -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                </ul> <!-- .nav .navbar-nav -->
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul> <!-- .nav .navbar-nav .navbar-right -->
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control nav-search" placeholder="Search...">
+                    </div>
+                </form> <!-- .navbar-form .navbar-right -->
+            </div>
+        </div> <!-- .container-fluid -->
+    </nav> <!-- .navbar .navbar-default -->
+
+    <!--*****************************************************
+         NAVBAR END | MAIN COVER START
+  ******************************************************-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Item-010 <span class="badge">35</span> </li>
+                    <li class="list-group-item">Item-565</li>
+                    <li class="list-group-item">Item-040</li>
+                    <li class="list-group-item">Item-0210</li>
+                    <li class="list-group-item">Item-01045</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, officiis.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, officiis.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, officiis.</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default active">
+                    <div class="panel-heading">Lorem ipsum dolor sit amet.</div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni totam id, ea at quam?</div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Lorem ipsum dolor sit amet.</div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni totam id, ea at quam?</div>
+                </div>
+            </div>
+            <div class="hi">
+                <div class="col-md-6">
+                    <div class="panel panel-default active">
+                        <div class="panel-heading">Lorem ipsum dolor sit amet.</div>
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni totam id, ea at quam?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-custom">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloribus quam animi, quae, temporibus nesciunt quas voluptatem facere similique saepe voluptas perferendis, voluptate inventore. Corporis sunt modi debitis nisi maxime voluptatibus eligendi quos laborum consequatur eius voluptatum reiciendis in iusto natus officia labore accusamus nam fugit recusandae, optio, vitae tempore. Cum repellendus totam aperiam modi non, iste eius quidem voluptate eveniet quae consequuntur illo sapiente ut impedit eligendi recusandae rem quibusdam eos! Voluptas voluptatum sapiente voluptatibus magni quae consequatur, doloremque quaerat dolorem provident neque aperiam mollitia facilis vero inventore nemo eveniet nam! Aliquam beatae, nisi veniam numquam, sed pariatur voluptas.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="nav nav-tabs nav-pills">
+                <li class="active"><a href="#a" data-toggle="tab" class="">Home</a></li>
+                <li><a href="#b" data-toggle="tab" class="">manu</a></li>
+                <li><a href="#c" data-toggle="tab" class="">blog</a></li>
+                <li><a href="#d" data-toggle="tab" class="">mail</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active bg-black white" id="a">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus nostrum quo, harum explicabo a repellendus, obcaecati totam. Dicta quae earum ducimus assumenda, quis quasi neque, distinctio porro ipsam eum excepturi suscipit, sed! Quae eum, itaque! Eligendi beatae ipsam nulla quia aperiam veritatis corrupti explicabo, deserunt est. Eos, aliquid, vitae!
+                </div>
+                <div class="tab-pane bg-pink white" id="b">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus nostrum quo, harum explicabo a repellendus, obcaecati totam. Dicta quae earum ducimus assumenda, quis quasi neque, distinctio porro ipsam eum excepturi suscipit, sed! Quae eum, itaque! Eligendi beatae ipsam nulla quia aperiam veritatis corrupti explicabo, deserunt est. Eos, aliquid, vitae!
+                </div>
+                <div class="tab-pane  bg-black white" id="c">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus nostrum quo, harum explicabo a repellendus, obcaecati totam. Dicta quae earum ducimus assumenda, quis quasi neque, distinctio porro ipsam eum excepturi suscipit, sed! Quae eum, itaque! Eligendi beatae ipsam nulla quia aperiam veritatis corrupti explicabo, deserunt est. Eos, aliquid, vitae!
+                </div>
+                
+            </div>
+        </div> <!--./row-->
+        
+    </div> <!--/.contaniner-->
+    <div class="container">
+        
+    </div>
+
+
+    <!--*****************************************************
+         SUBSCRIBE END | FOOTER START
+  ******************************************************-->
+
+    <div class="container-fluid bg-pink white">
+        <footer class="flex-center">
+            <p>Powered by: SChoolWab</p>
+        </footer> <!-- .flex-center -->
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script> <!-- (jQuery v3.3.1) -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- (font awesome v5.2.0) -->
+    <script type="text/javascript" src="js/swiper.min.js"></script> <!-- (swiper v4.4.6) -->
+    <script type="text/javascript" src="js/script.js"></script> <!-- (custom JS) -->
+    <script type="text/javascript">
+        /* internal JS be here*/
+
+    </script>
+</body>
+
+</html>
